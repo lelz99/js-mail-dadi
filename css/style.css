@@ -5,3 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.es-mail{
+    margin: 100px auto 100px;
+}

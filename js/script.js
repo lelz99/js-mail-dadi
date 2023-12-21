@@ -1,3 +1,26 @@
+//Esercizio Login
+const inputMail = document.getElementById('user-mail')
+const button = document.getElementById('button-invia')
+const mailLoggate = ['es99@gmail.com','se99@gmail.com','es1999@gmail.com']
+const paragraph = document.getElementById('risultato-mail')
+
+
+    button .addEventListener('click', function() {
+
+        if (inputMail.value == mailLoggate[0] || inputMail.value == mailLoggate[1] || inputMail.value == mailLoggate[2]){ 
+           text = 'Mail registrata'
+        } else {
+            text = 'Mail non registrata'
+        }
+        paragraph.innerText = text
+    })
+
+
+///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+
+// Esercizio Dadi
 const playerOne = document.getElementById('one')
 const playerTwo = document.getElementById('two')
 const result = document.getElementById('result')
