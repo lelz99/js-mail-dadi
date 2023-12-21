@@ -1,12 +1,10 @@
 const playerOne = document.getElementById('one')
 const playerTwo = document.getElementById('two')
 const result = document.getElementById('result')
-const button = document.getElementById('button')
+const buttonNumbers = document.getElementById('button')
 
+buttonNumbers .addEventListener('click', function(){
 
-
-button .addEventListener('click', function(){
-    
     // Genero i numeri random
     const firstPlayer = Math.floor(Math.random() *6) + 1
     const secondPlayer = Math.floor(Math.random() *6) + 1
