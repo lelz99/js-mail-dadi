@@ -24,7 +24,7 @@ button.addEventListener('click', function(){
             let = userLoggato = true
         }
     }
-    paragraph.innerText = text
+    paragraph.innerText = text;
 });
 
 
