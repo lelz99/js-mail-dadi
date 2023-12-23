@@ -15,7 +15,7 @@ button.addEventListener('click', function(){
     }
 
     let userLoggato = false;
-    text = 'mail non registrata'
+    text = 'mail non registrata' 
 
     for(let i = 0; i < emailsLoggate.length; i++){
 
